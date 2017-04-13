@@ -45,7 +45,7 @@ var webpackConfig = {
 
 // Our Webpack Defaults
 var defaultConfig = {
-  devtool: 'inline-source-map',
+  devtool: '',
 
   output: {
     filename: '[name].bundle.js',

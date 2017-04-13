@@ -1,4 +1,24 @@
+<h3>Angular 2 Forms</h3>
+<div>
+  <form>
 
+    <div class="form-group" style="display: inline-block">
+      <datepicker name="startDate" [(ngModel)]="startDate"
+      [showWeeks]='false'
+      [minDate]="minDate">
+
+      </datepicker>
+    </div>
+    <div>
+      <timepicker name="startTime" [(ngModel)]="startTime"
+      [minuteStep]="1"></timepicker>
+    </div>
+
+
+
+  </form>
+  <h3>{{startTime}}</h3>
+</div>
 
 
 
