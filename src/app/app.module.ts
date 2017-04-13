@@ -34,7 +34,7 @@ import { FormPoster } from "./services/form-poster.service";
     RouterModule.forRoot(rootRouterConfig, { useHash: true })
   ],
   providers: [
-    FormPoster, 
+    FormPoster,
     GithubService
   ],
   bootstrap: [ AppComponent ]
